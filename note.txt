@@ -1,0 +1,60 @@
+
+
+
+
+
+
+
+
+
+
+
+
+day-3
+Push pop
+shift unshift
+Length
+object.keys
+object.valuse
+object.freez
+slice
+splice
+split
+if else else if
+short circuit Null coesialcing
+---------------method---------
+push,pop-->remove and add from last on array
+shift,unshift-->remove and add from first on array
+
+Day2.js
+
+----slice---
+// slice-->> used to create a copy of a portion of the Array. it dosen't modify original
+// Array.
+// slice(startindex,endindex) where startindex inclusive and endindex is exclusive.
+
+
+-----splice---
+
+it is used to change the content of an array by removing or replacing existing and 
+adding new elements.
+//splice(startIndex, deleteCount,item)
+
+
+----split---
+its works on string
+Split a string into substrings using the specified separator and return them as an array.
+
+@param separator — A string that identifies character or characters to use in separating the string. If omitted, a single-element array containing the entire string is returned.
+@param limit — A value used to limit the number of elements returned in the array.
+
+
+
+----object----
+important method used in object
+
+object.keys(object_name)//it helps to find the keys present on object
+object.values(object_name)//it helps to find the vluse present on object
+object.freez(object_name)//it helps to prevent the modify of object data form outside..
+
+---condition---
