@@ -1,15 +1,5 @@
 
 
-
-
-
-
-
-
-
-
-
-
 day-3
 Push pop
 shift unshift
@@ -58,3 +48,42 @@ object.values(object_name)//it helps to find the vluse present on object
 object.freez(object_name)//it helps to prevent the modify of object data form outside..
 
 ---condition---
+if(condition is true){
+    excute this
+}
+else{
+    if fales excute else part
+}
+to replace this we can use ternary operator
+variable = condition ? expression1 ( if condition is true) : Expression2(if condition is false)
+
+
+
+
+
+
+day3----
+
+-----function----
+in short if someone says add 1+1 ..
+but that person says add add again this numberr as he want for repeated time
+ to slove such repeated approach in coding .. function is pice of code written to overcome
+ repetition and more..
+ maintainable
+ eg console.log(1+1)
+ console.log(1+2)
+
+
+---Types of Function--
+
+
+Regular Function:
+
+
+Named Function:
+
+Arrow function:
+
+Anonymous function
+
+
