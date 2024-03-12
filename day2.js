@@ -25,7 +25,7 @@
 //     age :32
 // }
 // Object.freeze(person)//it prevent the modify the object from outside
-// person.country = "nepal"
+// person.country = "nepal"//these value are not added on person object after using freez method.
 // person.age=22
 // console.log(person)
 // // console.log(Object.keys(person))
@@ -63,6 +63,19 @@
 //short circuit evaluation
 // const result = isRaining && "Carry umbrella" || "Don't carry"
 // console.log(result)
-let isloggedIn = true
-const name = isloggedIn && "Authenticated"
-console.log(name)
+// let isloggedIn = false
+// const name = isloggedIn && "Authenticated" ||"not authenticated"
+// console.log(name)
+// //output: Authenticated
+// const harry= true;
+// const result = harry ? "real name" : 'facke name'
+// console.log(result)
+// console.log(harry ? "my  name is khan" :"im not khan")
+// //short circuit
+// console.log(harry && "my name is harry")
+
+
+
+//nullish coelescing operator
+let age= null
+console.log(age ?? "no age")
