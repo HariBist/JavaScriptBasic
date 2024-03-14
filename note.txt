@@ -87,3 +87,17 @@ Arrow function:
 Anonymous function
 
 
+
+day4
+
+HOF(higher order function)
+ callback function
+ .filter
+ .forEach
+ Map
+ Reduce
+
+
+  callback function are the function that are passed as an argument
+
+  higher order function that take accept one or more functions(callback)
