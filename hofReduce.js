@@ -7,8 +7,17 @@
 //Example 1: Using reduce() to sum up all the elements in an array:
 
 const arr = [1,3,5,6,7]
-const result = arr.reduce(function(sum){
-    return sum+=sum
+const result = arr.reduce(function(sum,currentvalue){
+    return sum+currentvalue
+},0)
+// console.log(result)
+
+//eg2: using reduce finding the maximum value in an array
+
+let number=[233,3,56,34,199,1];
+const maxValue = number.reduce((max,currentV)=>{
+    if(currentV>max)
+    max = currentV;
+return max;
 })
-console.log(arr)
-console.log(result)
+console.log(maxValue)
