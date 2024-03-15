@@ -161,29 +161,30 @@
 
 //group kasari banauney
 
-const people =[
-    {
-        name: 'hari' ,age:22
-    },
-    {
-        name: 'shyam' ,age:20
-    },
-    {
-        name: 'naresh' ,age:23
-    },
-    {
-        name: 'mohan' ,age:22
-    },
-    {
-        name: 'parkash' ,age:23
-    }
-]
-const result = people.reduce(function(accumulator,person){
-   const age = person.age
-   if(!accumulator[age]){
-    accumulator[age]=[]
-   }
-   accumulator[age].push(person)
-   return accumulator
-},{})
-console.log(result)
+// const people =[
+//     {
+//         name: 'hari' ,age:22
+//     },
+//     {
+//         name: 'shyam' ,age:20
+//     },
+//     {
+//         name: 'naresh' ,age:23
+//     },
+//     {
+//         name: 'mohan' ,age:22
+//     },
+//     {
+//         name: 'parkash' ,age:23
+//     }
+// ]
+// const result = people.reduce(function(accumulator,person){
+//    const age = person.age
+//    if(!accumulator[age]){
+//     accumulator[age]=[]
+//    }
+//    accumulator[age].push(person)
+//    return accumulator
+// },{})
+// console.log(result)
+
