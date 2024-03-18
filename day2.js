@@ -77,5 +77,12 @@
 
 
 //nullish coelescing operator
-let age= null
-console.log(age ?? "no age")
+// let age= null
+// console.log(age ?? "no age")
+let arr=[85,97,44,27,76,60];
+let sum=0
+for(let i=0;i<arr.length;i++)
+{
+sum=sum+arr[i];
+}
+console.log(sum)
