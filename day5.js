@@ -1,24 +1,17 @@
-//DOM(Data Object Model)
-// const hh1= document.querySelector('.h1')
-// // hh1.textContent=('bye world')
-// console.log(hh1)
-// const button = document.getElementsByTagName('button')
-// button.textContent="hello"
-// button.addEventListener('click',()=>{
-//     hh1.textContent="bye world"
-//    var newparagraph= document.createElement('p')
-//    newparagraph.textContent ="learning Dom"
-//    document.body.appendChild(newparagraph)
-// })
-const btn = document.querySelector('#button')
-const text = document.querySelector('#this');
-// button.addEventListener('click',()=>{
-// let value = doucument.querySelector('#this') ;
-// value-=10;
-// text.innerText=value;
+const userList = document.querySelector('.languages-list');
+const text = document.querySelector('.Text');
+const content = document.querySelector('.content');
+userList.innerHTML = "<li>JavaScript</li><li>python</li><li>php</li><li>Ruby</li>";//using the innerHTML is can open doors to cross-site scripting
+text.innerText = "<li>JavaScript</li> <li>python</li><li>php</li><li>Ruby</li>";
+content.textContent = "<li>JavaScript</li><li>python</li><li>php</li><li>Ruby</li>";
+// On this example we can see the use case of innerHTML , innerText and textContent propertises of DOM in javascript
+//where innerHTML = recognizes the HTML tags and formats the content according
+//innerText and textContent = innerText ignores the HTML tags and prints thme on screen as part of text
 
-// })
-btn.onClick = update();
+//cross site scripting example on innerHTMl
 
-
-
+// let usercomment =' <img src="" oneerror="alert("malicious script executed!")">this is my comment!</img>';
+userList.innerHTML = usercomment;
+const Message = document.querySelector('.messages');
+Message.innerText="used multiple selector using dom";
+console.log(Message);
