@@ -23,3 +23,4 @@ Functional programming produces programs by composing mathematical functions and
 
 #Difference between classical inheritanc and prototypal inheritance?
 
+hi ii
